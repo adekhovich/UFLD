@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and experiment outputs
+/models/
+/tmp/
+/results/
+*.pth
+*.pt
+*.pickle
+*.pkl
+
+# Datasets (download separately, see README)
+/data/
+*.npz
+
+# Generated figures and archives
+*.eps
+*.svg
+*.png
+UFLD.zip
+
+# Logs
+*.log
+wandb/
+runs/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Paper drafts (anonymous submission)
+*.pdf

@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+scikit-learn
+gymnasium>=0.28
+jupyter        # only needed for the notebooks
